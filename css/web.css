@@ -1,2 +1,44 @@
 ﻿/*웹 css*/
 
+/*wrap 전체영역*/
+#wrap { width:100%;
+        margin-top:60px;/*header height값*/ 
+}
+/*--------header 영역----------*/
+.header {
+    width:100%;
+    z-index:2000;
+    background-color: #fff;
+    height: 60px;
+    box-shadow: 0px 1px 4px #181818;
+    position:fixed;
+    top:0;
+    
+}
+/*header 로고*/
+.header .logo {float:left; height: 35px;}
+.header .logo .logo-img {height:35px; margin:12px 0 0 20px}
+
+/*header 로그인, 메뉴*/
+    .header .menu-login {
+        float: right;
+        height: 35px;
+        width: 79px;
+        margin: 13px;
+        padding: 6px;
+        box-sizing: border-box;
+        background-color: #FFBB00;
+        border-radius: 20px;
+        font-size:15px;
+        text-align:center;
+        font-weight:700;
+        display:inline-block;
+        border-style:none;
+        margin-right:25px
+    }
+.header .menu {float: right;}
+.header .menu>ul {line-height:60px}
+.header .menu>ul>li {float:left; padding-right:20px; font-weight:600}
+    .header .menu > ul > li > a:hover {
+        color: #FFBB00
+    }
