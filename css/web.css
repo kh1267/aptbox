@@ -20,7 +20,7 @@
 .header .logo .logo-img {height:35px; margin:12px 0 0 20px}
 
 /*header 로그인, 메뉴*/
-    .header .menu-login {
+.header .menu-login {
         float: right;
         height: 35px;
         width: 79px;
@@ -36,6 +36,7 @@
         border-style:none;
         margin-right:25px
     }
+.header .menu-login:hover { background-color: #FFF200}
 .header .menu {float: right;}
 .header .menu>ul {line-height:60px}
 .header .menu>ul>li {float:left; padding-right:20px; font-weight:600}
