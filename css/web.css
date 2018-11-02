@@ -34,9 +34,10 @@
         font-weight:700;
         display:inline-block;
         border-style:none;
-        margin-right:25px
+        margin-right:25px;
+        cursor:pointer;
     }
-.header .menu-login:hover { background-color: #FFF200}
+    .header .menu-login:hover {background-color: #FFF200;}
 .header .menu {float: right;}
 .header .menu>ul {line-height:60px}
 .header .menu>ul>li {float:left; padding-right:20px; font-weight:600}
